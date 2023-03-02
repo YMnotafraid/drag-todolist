@@ -1,0 +1,22 @@
+.App {
+    display: flex;
+}
+
+button {
+    border: none;
+}
+
+.event-bar {
+    flex-shrink: 1;
+    min-width: 220px;
+    text-align: center;
+    width: 300px;
+    height: 100vh;
+    border-right: 2px solid #ededed;
+}
+
+.task-box {
+    flex: 1;
+    min-width: 1070px;
+    background-color: #fefefe;
+}
